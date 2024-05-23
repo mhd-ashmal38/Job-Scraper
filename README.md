@@ -3,14 +3,14 @@ Remotive Jobs Scraper
 This is a simple Node.js scraper built with Puppeteer to extract remote job listings from the Remotive API and store them in DynamoDB.
 
 Setup Instructions :-
-      1. Clone this repository to your local machine.
-      2. Navigate to the project directory and install the required dependencies using npm.
-               cd RemotiveJobsScraper
-               npm install
-      3. Ensure you have AWS credentials configured on your system. You can set up your AWS credentials by following the AWS Documentation.
-      4. Run the scraper using Node.js.
-               node index.js
-         This command will launch Puppeteer, scrape the Remotive API, and store the job listings in DynamoDB.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory and install the required dependencies using npm.
+   cd RemotiveJobsScraper
+   npm install
+3. Ensure you have AWS credentials configured on your system. You can set up your AWS credentials by following the AWS Documentation.
+4. Run the scraper using Node.js.
+   node index.js
+   This command will launch Puppeteer, scrape the Remotive API, and store the job listings in DynamoDB.
    
 Dependencies
 ------------
